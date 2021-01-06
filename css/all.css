@@ -1,0 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+    letter-spacing: 0.15rem;
+}
+
+.shopping-cart th, .shopping-cart td {
+    width: 25%;
+    text-align: center;
+}
+
+.shopping-cart td{
+    font-weight: 500;
+}
+
+.shopping-cart input[type="number"] {
+    width: 45px;
+    text-align: right;
+}
+.note{
+    bottom: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: -1;
+}
